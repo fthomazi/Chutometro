@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 800px;
+    background-image: url("https://i.pinimg.com/originals/68/92/9e/68929e1ca5355eb167bb2e75421bc806.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 0px 30px 45px 30px; /*centralizar caixa*/
+    height: 100vh;
+    width: 270px;
+    height: 320px;
+    border-radius: 12px;
+    flex-direction: column;
+    display: center;
+    background-color: #008080;
+    padding: 0px 30px 45px 30px;
+    box-shadow: rgba (0, 0, 0, 0.16) 0px 1px 4px, rgb(10, 10, 10) 0px 0px 0px 3px;
+  }
+  
+  .box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #fa6fa6;
+    font-size: 18px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    line-height: 5;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ffa500;
+    border: 2px solid #cc8400;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: Arial;
+  }
+  
+  .resultado {
+    color: #00bfff;
+    text-align: center;
+    margin-top: 16px;
+    font-family: Arial;
+  }
+  
